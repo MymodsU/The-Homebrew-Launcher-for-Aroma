@@ -1,0 +1,9 @@
+{
+  "name": "The Homebrew Launcher for Aroma",
+  "author": "sunshinehatem",
+  "version": "1.0.0",
+  "description": "this app is an revival to the homebrew launcher, since aroma dosent use the HBL and instead uses wuhbs to display on menu but since people miss the launcher i made an homebrew launcher for aroma so we can get that legacy vibe Homebrew launcher for aroma accepts .HL and .Aroma",
+  "image2d": "resources/icon.png",
+  "splash_tv": "resources/tv_splash.png",
+  "splash_gamepad": "resources/gamepad_splash.png"
+}
