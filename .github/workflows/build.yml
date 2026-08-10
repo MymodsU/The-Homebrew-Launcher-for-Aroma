@@ -18,6 +18,9 @@ jobs:
 
       - name: Compile Application via Makefile
         run: |
+          export DEVKITPRO=/opt/devkitpro
+          export DEVKITPPC=$DEVKITPRO/devkitPPC
+          export PATH=$PATH:$DEVKITPPC/bin
           make clean
           make
 
@@ -28,3 +31,4 @@ jobs:
           path: |
             *.wuhb
             *.rpx
+
