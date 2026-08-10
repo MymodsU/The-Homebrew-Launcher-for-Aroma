@@ -12,8 +12,9 @@ jobs:
 
       - name: Install Wii U dependencies
         run: |
-          pacman -Syyu --noconfirm
-          pacman -S wiiu-dev --noconfirm
+          apt-get update && apt-get install -y doxygen
+          dkp-pacman -Syyu --noconfirm
+          dkp-pacman -S wiiu-dev --noconfirm
 
       - name: Compile Application via Makefile
         run: |
